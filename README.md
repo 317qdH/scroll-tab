@@ -3,4 +3,4 @@
 
 效果图
 
-![scroll](D:\daily-program\my-qd-database\scroll-tab\images\scroll.gif)
+![scroll](https://raw.githubusercontent.com/317qdH/scroll-tab/master/images/scroll.gif)
