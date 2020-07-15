@@ -3,4 +3,4 @@
 
 效果图
 
-![scroll](D:\daily-program\my-qd-database\gif摄屏\scroll.gif)
+![scroll](D:\daily-program\my-qd-database\scroll-tab\images\scroll.gif)
