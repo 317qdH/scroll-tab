@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cardBgSelection": "../component/cardBgSelection"
+  }
+}

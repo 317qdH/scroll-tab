@@ -1,0 +1,17 @@
+<view class="user-card-bg">
+  <view class="u-card-box {{cardClassName}}" animation="{{slide_card}}">
+  <image mode="aspectFill" class="uc-avatar" src="{{userInfoObj.avatarPath}}"></image>
+    <view class="uc-title">
+      <view>{{userInfoObj.name}}</view>
+      <text>{{userInfoObj.position}}</text>
+    </view>
+    <image class="uc-bg" src='{{cardImageSrc}}'></image>
+    <view class="uc-infor">
+      <view class="us-company-name">{{userInfoObj.companyName}}</view>
+      <view class="us-iphone">{{userInfoObj.mobile}}</view>
+      <view class="us-email">{{userInfoObj.mail}}</view>
+    </view>
+  </view>
+</view>
+<view class="mb-tip">模板选择</view>
+<cardBgSelection id="cardSelect" can-tab="{{canTab}}" template-id="{{userInfoObj.templateId}}" bindselectBgEvent="getCardInfor" bindinitBgEvent="initCardInfor"></cardBgSelection>
